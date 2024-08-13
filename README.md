@@ -1,4 +1,4 @@
-![Orbitz](images/panda-got-talent-800.png)
+![Orbitz](images/home-flavor-hero.png)
 
 Maple you Day! Enjoy Our New Taste!
 
