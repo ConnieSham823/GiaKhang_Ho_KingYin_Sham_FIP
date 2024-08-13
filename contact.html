@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Orbitz Maple Flavor</title>
+</head>
+<body>
+    <h1 class="hidden">Orbitz Maple Tea</h1>
+    <!-- Main Nav -->
+    <div id="sticky-nav-con">
+        <!-- Header for Mobile -->
+        <header id="main-header">
+            <nav id="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                    <img src="images/Humburger-icon.png" alt="hamburger menu">
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">Evolution</a></li>
+                            <li><a href="product.html">Maple Flavors</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>        
+            </nav>
+
+            <div id="logo">
+                <img src="images/logo-ori.png" alt="Orbitz Logo">
+            </div>
+
+            <div class="enjoy-now enjoy-promotion">
+                <img src="images/Enjoy-now.png" alt="Enjoy Now">
+            </div>
+        </header>
+
+        <!-- Header for Tablet & Desktop -->
+        <header id="main-header-t">
+            <nav id="main-nav-t" class="grid-con">
+                <h2 class="hidden">Main Navigation</h2>
+                    <div id="logo-t" class="t-col-start-1 t-col-end-3">
+                        <img src="images/logo-ori.png" alt="Orbitz logo">
+                    </div>
+
+                    <div id="burger-con-t" class="t-col-start-3 t-col-end-11">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">Evolution</a></li>
+                            <li><a href="product.html">Maple Flavors</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="enjoy-now-t" class="enjoy-promotion t-col-start-11 t-col-end-13">
+                        <img src="images/Enjoy-now.png" alt="Enjoy Now">
+                    </div>
+            </nav> 
+        </header>
+    </div>
+
+    <!-- Contact Hero -->
+    <main>
+        <section id="contact-hero" class="full-width-grid-con">
+            <h2 class="hidden">Contact Us Image</h2>
+            <img
+            sizes="100vw"
+            srcset="
+            images/banner-1920_peukog_c_scale,w_190.png 190w,
+            images/banner-1920_peukog_c_scale,w_474.png 474w,
+            images/banner-1920_peukog_c_scale,w_663.png 663w,
+            images/banner-1920_peukog_c_scale,w_832.png 832w,
+            images/banner-1920_peukog_c_scale,w_957.png 957w,
+            images/banner-1920_peukog_c_scale,w_1086.png 1086w,
+            images/banner-1920_peukog_c_scale,w_1180.png 1180w,
+            images/banner-1920_peukog_c_scale,w_1293.png 1293w,
+            images/banner-1920_peukog_c_scale,w_1375.png 1375w,
+            images/banner-1920_peukog_c_scale,w_1484.png 1484w,
+            images/banner-1920_peukog_c_scale,w_1553.png 1553w,
+            images/banner-1920_peukog_c_scale,w_1633.png 1633w,
+            images/banner-1920_peukog_c_scale,w_1729.png 1729w,
+            images/banner-1920_peukog_c_scale,w_1797.png 1797w,
+            images/banner-1920_peukog_c_scale,w_1862.png 1862w,
+            images/banner-1920_peukog_c_scale,w_1920.png 1920w"
+            src="banner-1920_peukog_c_scale,w_1920.png"
+            alt="Contact Hero Image">
+        </section>
+
+        <section id="bubble-O">
+            <h2 class="hidden">Bubble O</h2>
+            <img src="images/bubble-o.png" alt="Bubble O">
+        </section>
+
+    <section class="grid-con">
+        <h2 class="hidden">Contact Information</h2>
+            <div id="contact-hero-text" class="col-span-full">
+                <h2>Contact Us</h2>
+                <p>Thank you for taking the time to choose Orbitz</p>
+            </div>
+
+            <div id="contact-hero-address" class="col-span-full">
+                <h3>Orbitz</h3>
+                <p>
+                    Toll Free: +1 877 201-1156<br>
+                    FAX: +1 613 638 2217<br>
+                    E-mail: orbitz@online.ca
+                </p>      
+            </div>
+
+            <div id="contact-hero-form" class="col-span-full t-col-start-3 t-col-end-11 l-col-start-3 l-col-end-11">
+                <h2 class="hidden">Contact Us Form</h2>
+                    <form action="#" method="post" enctype="text/plain">
+                        <input name="fullName" type="text" required placeholder="First & Last Name">
+                        <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                        <button type="submit" class="send-icon">
+                            <img src="images/icon-send.png" alt="Send" class="send-icon">
+                        </button>
+                    </form>
+            </div>
+    </section>
+</main>
+
+    <!-- Lightbox for Bubble-O -->
+    <section id="lightbox" class="hidden">
+        <div id="lightbox-content">
+          <img src="images/lightbox-800.png" alt="Lightbox Image" id="lightbox-image">
+          <h3 id="lightbox-title">Orbitz Secret</h3>
+          <img src="images/icon-close.png" alt="Close" id="lightbox-close">
+        </div>
+    </section>
+
+    <!-- Lightbox for Product Promotion -->
+    <section id="pdt-lightbox" class="lightbox-overlay hidden">
+        <h3 class="hidden">Promotion $2</h3>
+        <div id="pdt-lightbox-content" class="lightbox-content">
+            <img src="images/promotion-800.png" alt="PDT Lightbox Image" id="pdt-lightbox-image">
+            <h3 id="pdt-lightbox-title">Enjoy Now</h3>
+            <img src="images/icon-close.png" alt="Close" id="pdt-lightbox-close" class="close-button">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="hidden">Footer</h2>
+        <div id="sticky-nav-foot" class="grid-con">
+            <div id="footer-logo" class="col-span-full">
+                <img src="images/logo-ori.png" alt="Orbitz logo">
+            </div>
+
+            <nav  id="footer-nav" class="col-span-full">
+                <h3 class="hidden">Footer Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">Evolution</a></li>
+                        <li><a href="product.html">Maple flavors</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+        <section class="grid-con">
+            <h2 class="hidden">Social Media</h2>
+                <div id="footer-social-icons" class="col-span-full">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/ig.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                </div>
+            
+                <div id="footer-contact" class="col-span-full">
+                    <p>
+                        Toll Free:+1 877 201-1156 <br>
+                        FAX:+1 613 2217 <br>
+                        E-mail: orbitz@online.ca
+                    </p>
+                </div>
+            </section>  
+            
+            <div id="footer-policy" class="col-span-full">
+                <p id="privacy-policy">©2024 Orbitz. All Rights Reserved. Privacy Policy</p>
+            </div>
+    </footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
