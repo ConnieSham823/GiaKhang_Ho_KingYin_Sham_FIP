@@ -144,7 +144,7 @@
     
     /* General Styles */
     h2 {
-      color: white;
+      color: #433415;
       margin-top: 20px;
       margin-bottom: 13px;
       text-align: center;
@@ -152,7 +152,7 @@
     }
     
     p {
-      color: white;
+      color: #433415;
       text-align: center;
       padding-left: 15px;
       padding-right: 15px;
@@ -195,7 +195,7 @@
     @media screen and (max-width: 768px) {
       #sticky-nav-con {
          position: sticky;
-         background: url(../images/header-700.png) no-repeat;
+         /* background: url(../images/header-700.png) no-repeat; */
          background-size: cover; 
           background-position: center; 
       }
@@ -743,7 +743,7 @@
     @media screen and (min-width: 768px) {
       #sticky-nav-con {
          position: sticky;
-         background: url(../images/header-1200.png) no-repeat;
+         /* background: url(../images/header-1200.png) no-repeat; */
       }
     
     #lightbox-content {
@@ -914,7 +914,7 @@
     
     /* Footer Tablet */
     footer {
-      background: url(../images/Woodfooter-1200.png) no-repeat;
+      background: url(../images/Wood-footer-1200.png) no-repeat;
       margin-top: 50px;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -980,7 +980,7 @@
     /* Header & Footer Desktop */
       #sticky-nav-con {
         position: sticky;
-        background: url(../images/header1920.png) no-repeat;
+        /* background: url(../images/header1920.png) no-repeat; */
      }
     
      h2 {
@@ -1038,13 +1038,25 @@
     }
     
     footer {
-      background: url(../images/footer-1920.png) no-repeat;
+      background: url(../images/wood-footer-1920.png) no-repeat;
       margin-top: 50px;
       padding-top: 20px;
       padding-bottom: 20px;
     }
     
     /* 1-Main Page Desktop */
+    #main-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center content horizontally */
+      text-align: center;  /* Center text and content inside */
+  }
+  
+    #main-about video {
+        width: 80%; /* Set the video width to 80% of its container */
+        max-width: 100%; /* Ensure it does not exceed the container's width */
+        height: auto; /* Maintain the aspect ratio */
+    }
     #bubble-O img {
       max-width: 220px;
       height: auto;
