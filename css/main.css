@@ -743,7 +743,6 @@
     @media screen and (min-width: 768px) {
       #sticky-nav-con {
          position: sticky;
-         /* background: url(../images/header-1200.png) no-repeat; */
       }
     
     #lightbox-content {
@@ -1015,7 +1014,7 @@
     #burger-con-t ul li a {
       color: #38393A;
       text-decoration: none;
-      font-size: 23px;
+      font-size: 28px;
       padding: 20px;
     }
     
