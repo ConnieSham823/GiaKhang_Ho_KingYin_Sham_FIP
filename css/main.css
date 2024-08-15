@@ -110,14 +110,14 @@
     /* General Styles */
     h2 {
       color: #433415;
-      margin-top: 20px;
+      margin-top: 25px;
       margin-bottom: 13px;
       text-align: center;
       font-size: 23px;
     }
     
     p {
-      color: #433415;
+      color: #767070;
       text-align: center;
       padding-left: 15px;
       padding-right: 15px;
@@ -319,7 +319,7 @@
     
     /* Orbitz Background Video */
     #o-background video {
-      width: 90%; 
+      width: 100%; 
       height: auto;
       border-radius: 10px;
     }
@@ -365,6 +365,10 @@
     .flavor-container img {
       width: 100%;
       border-radius: 15px;
+    }
+
+    .flavor-container p {
+      color: #433415;
     }
       
     #fla-mango {
