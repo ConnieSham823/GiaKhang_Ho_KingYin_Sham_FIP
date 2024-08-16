@@ -135,6 +135,7 @@
     }
     
     #bubble-O img {
+      width: 110px;
       max-width: 130px;
       height: auto;
     }
